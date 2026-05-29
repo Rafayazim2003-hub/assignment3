@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-config
+  namespace: assignment3
+data:
+  DB_HOST: "mysql"
+  DB_NAME: "assignment3db"
+  DB_USER: "flask_user"
