@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:alpine
-          imagePullPolicy: IfNotPresent
+          image: rafayazim/nginx:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           volumeMounts:
